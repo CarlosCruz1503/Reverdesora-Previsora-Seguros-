@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+:root {
+    --color-text: #53C222;
+    --color-text-2: #FDFDFC;
+    --font-family-description: 'Titillium Web', sans-serif;
+}
+
+.div-header {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & .d-header {
+        background-color: var(--color-text);
+        height: 100%;
+        width: 80%;
+        border-radius: 2rem;
+
+        & .h-text {
+            margin-top: 3rem;
+            margin-left: 4rem;
+            font-size: 8px;
+        }
+
+        & .h-title {
+            margin-top: 0.6rem;
+            margin-left: 4rem;
+            margin-bottom: 0;
+
+            & h1 {
+                margin-bottom: 0;
+            }
+
+            & h2 {
+                margin-bottom: 0;
+                margin-top: -0.7rem;
+            }
+        }
+
+        & .h-description {
+            margin-top: 0.6rem;
+            margin-left: 4rem;
+            margin-bottom: 0;
+        }
+
+        & .h-form {
+            margin-top: 0.6rem;
+            margin-left: 4rem;
+            margin-bottom: 0;
+            display: flex;
+            margin-bottom: 2rem;
+
+            & input {
+                height: 2rem;
+                width: 12rem;
+                border: none;
+                border-radius: 1rem;
+            }
+
+            & button {
+                height: 2rem;
+                width: auto;
+                border: none;
+                border-radius: 1rem;
+            }
+        }
+
+        & .h-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & img {
+                border: var(--color-text) 1px solid;
+                width: 90%;
+                margin: auto;
+            }
+        }
+
+    }
+
+    & .f-header {
+        height: auto;
+        width: 50%;
+        margin-top: -1rem;
+        border-radius: 1.1rem;
+        background-color: #FFFFFF;
+        padding: 1.3rem;
+        text-align: center;
+
+        & .title {
+            background-color: #8ca192;
+            border-radius: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            margin-right: 1rem;
+        }
+
+        & .t-1 {
+            background-color: #7ddda2;
+            border-radius: 1.1rem;
+            margin-right: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        & .t-2 {
+            background-color: #94f666;
+            border-radius: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        & .cifra {
+            color: black;
+            font-size: 1.1rem;
+            margin-bottom: 0;
+        }
+
+        & .info {
+            font-size: 0.6rem;
+            
+        }
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .h-form {
+        flex-direction: column;
+        max-width: 50%;
+        & input {
+
+            width: auto;
+        }
+
+        & button {
+            width: auto;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .div-header {
+        & .d-header {
+            & .h-text {
+                margin-left: 2rem;
+            }
+
+            & .h-title {
+                margin-left: 2rem;
+            }
+
+            & .h-description {
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+
+            & .h-form {
+                margin-left: 2rem;
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+    .h-form {
+        flex-direction: column;
+        max-width: 60%;
+        & input {
+            width: auto;
+        }
+
+        & button {
+            width: auto;
+        }
+    }
+}

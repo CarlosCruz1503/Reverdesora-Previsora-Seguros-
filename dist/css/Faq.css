@@ -1,0 +1,19 @@
+.container .f-claves {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.container .f-claves .gray {
+  color: gray;
+  margin: 0;
+}
+.container .f-claves .f-h1 {
+  margin-top: -0.6rem;
+}
+.container .accordion-item .accordion-collapse .accordion-body {
+  font-family: var(--font-family-description);
+}
+
+/*# sourceMappingURL=Faq.css.map */

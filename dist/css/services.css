@@ -1,0 +1,68 @@
+.container .d-services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.container .d-services .s-h1 {
+  margin-top: -0.6rem;
+  text-align: center;
+}
+.container .d-services .gray {
+  color: gray;
+  margin: 0;
+}
+.container .d-services .r-services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .d-services .r-services .card {
+  border: none;
+  width: 18rem;
+  height: 12rem;
+  margin-bottom: 1rem;
+}
+.container .d-services .r-services .card .card-body {
+  border: 1px solid rgba(100, 148, 237, 0.2862745098);
+  border-radius: 1rem;
+  background-color: rgba(24, 186, 97, 0.0941176471);
+}
+.container .d-services .r-services .card .card-body .icon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.container .d-services .r-services .card .card-body .icon .s-icon {
+  padding: 0.3rem;
+  margin: 0.3rem;
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+.container .d-services .r-services .card .card-body .icon .s-number {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container .d-services .r-services .card .card-body .icon .s-number .s-tnumber {
+  margin: 0;
+  margin-right: 1rem;
+  font-size: 2rem;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.253);
+}
+.container .d-services .r-services .card .card-body .s-text {
+  font-size: 0.8rem;
+  font-family: var(--font-family-description);
+}
+.container .d-services .r-services .card .card-body .s-a {
+  font-family: var(--font-family-description);
+  font-size: 0.75rem;
+}
+
+/*# sourceMappingURL=services.css.map */

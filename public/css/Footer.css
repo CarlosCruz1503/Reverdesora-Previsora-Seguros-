@@ -1,0 +1,22 @@
+.footer {
+  background-color: #F6FCFF;
+  margin-top: 2rem;
+  padding: 0;
+}
+.footer .f-img {
+  margin: 2rem;
+  padding: 0;
+}
+.footer .f-img img {
+  width: 15rem;
+}
+.footer .f-text {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: var(--color-text);
+}
+
+/*# sourceMappingURL=Footer.css.map */

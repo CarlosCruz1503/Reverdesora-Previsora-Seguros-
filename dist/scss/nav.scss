@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@700&display=swap');
+:root{
+    overflow-x: hidden;
+}
+*{
+    font-family: 'Solway', serif;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    & .logo{
+        display: flex;
+        & img{
+            height: 3rem;
+        }
+    }
+    & .buttons{
+        width:auto;
+        & a{
+            font-size: 0.85rem;
+            border: 0;
+            background-color: #FFFFFF;
+            border-bottom: var(--color-text) 1px solid;
+            margin: 5px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+    & .solicitud{
+        & .p-solicitud{
+            margin-top: 0.2rem;
+            padding: 0.5rem;
+            border: solid 2px var(--color-text);
+            border-radius: 1rem;
+            text-decoration: none;
+            color:black
+        }
+    }
+}

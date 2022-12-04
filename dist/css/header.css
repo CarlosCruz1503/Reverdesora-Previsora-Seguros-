@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+:root {
+  --color-text: #53C222;
+  --color-text-2: #FDFDFC;
+  --font-family-description: "Titillium Web", sans-serif;
+}
+
+.div-header {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.div-header .d-header {
+  background-color: var(--color-text);
+  height: 100%;
+  width: 80%;
+  border-radius: 2rem;
+}
+.div-header .d-header .h-text {
+  margin-top: 3rem;
+  margin-left: 4rem;
+  font-size: 8px;
+}
+.div-header .d-header .h-title {
+  margin-top: 0.6rem;
+  margin-left: 4rem;
+  margin-bottom: 0;
+}
+.div-header .d-header .h-title h1 {
+  margin-bottom: 0;
+}
+.div-header .d-header .h-title h2 {
+  margin-bottom: 0;
+  margin-top: -0.7rem;
+}
+.div-header .d-header .h-description {
+  margin-top: 0.6rem;
+  margin-left: 4rem;
+  margin-bottom: 0;
+}
+.div-header .d-header .h-form {
+  margin-top: 0.6rem;
+  margin-left: 4rem;
+  margin-bottom: 0;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.div-header .d-header .h-form input {
+  height: 2rem;
+  width: 12rem;
+  border: none;
+  border-radius: 1rem;
+}
+.div-header .d-header .h-form button {
+  height: 2rem;
+  width: auto;
+  border: none;
+  border-radius: 1rem;
+}
+.div-header .d-header .h-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-header .d-header .h-img img {
+  border: var(--color-text) 1px solid;
+  width: 90%;
+  margin: auto;
+}
+.div-header .f-header {
+  height: auto;
+  width: 50%;
+  margin-top: -1rem;
+  border-radius: 1.1rem;
+  background-color: #FFFFFF;
+  padding: 1.3rem;
+  text-align: center;
+}
+.div-header .f-header .title {
+  background-color: #8ca192;
+  border-radius: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+}
+.div-header .f-header .t-1 {
+  background-color: #7ddda2;
+  border-radius: 1.1rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.div-header .f-header .t-2 {
+  background-color: #94f666;
+  border-radius: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.div-header .f-header .cifra {
+  color: black;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+.div-header .f-header .info {
+  font-size: 0.6rem;
+}
+
+@media (max-width: 1200px) {
+  .h-form {
+    flex-direction: column;
+    max-width: 50%;
+  }
+  .h-form input {
+    width: auto;
+  }
+  .h-form button {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .div-header .d-header .h-text {
+    margin-left: 2rem;
+  }
+  .div-header .d-header .h-title {
+    margin-left: 2rem;
+  }
+  .div-header .d-header .h-description {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .div-header .d-header .h-form {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .h-form {
+    flex-direction: column;
+    max-width: 60%;
+  }
+  .h-form input {
+    width: auto;
+  }
+  .h-form button {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */
