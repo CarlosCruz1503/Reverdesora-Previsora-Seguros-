@@ -22,7 +22,7 @@
 .div-header .d-header .h-text {
   margin-top: 3rem;
   margin-left: 4rem;
-  font-size: 8px;
+  font-size: 0.8rem;
 }
 .div-header .d-header .h-title {
   margin-top: 0.6rem;
@@ -31,6 +31,7 @@
 }
 .div-header .d-header .h-title h1 {
   margin-bottom: 0;
+  font-size: 4rem;
 }
 .div-header .d-header .h-title h2 {
   margin-bottom: 0;
@@ -40,6 +41,7 @@
   margin-top: 0.6rem;
   margin-left: 4rem;
   margin-bottom: 0;
+  font-size: 1.5rem;
 }
 .div-header .d-header .h-form {
   margin-top: 0.6rem;
@@ -67,7 +69,7 @@
 }
 .div-header .d-header .h-img img {
   border: var(--color-text) 1px solid;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 .div-header .f-header {
@@ -85,7 +87,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-right: 1rem;
 }
 .div-header .f-header .t-1 {
@@ -111,7 +113,7 @@
   margin-bottom: 0;
 }
 .div-header .f-header .info {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 1200px) {

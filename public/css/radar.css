@@ -8,9 +8,11 @@
 .container .r-claves .gray {
   color: gray;
   margin: 0;
+  font-size: 1.5rem;
 }
 .container .r-claves .r-h1 {
   margin-top: -0.6rem;
+  font-size: 3rem;
 }
 .container .d-radar {
   display: flex;
@@ -26,54 +28,54 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  width: 790px;
-  height: 790px;
+  width: 998px;
+  height: 998px;
   border-radius: 50%;
 }
 .container .d-radar .r-img .radar-img {
-  width: 768px;
-  height: 768px;
+  width: 998px;
+  height: 998px;
 }
 .container .d-radar .p-radar {
   position: relative;
 }
 .container .d-radar .p-radar .radar-item {
-  font-size: 0.5rem;
-  width: 5rem;
+  font-size: 0.75rem;
+  width: 8rem;
   position: absolute;
   border: none;
   border-radius: 1rem;
   background-color: rgb(255, 255, 255);
 }
 .container .d-radar .p-radar #economiaCircular {
-  left: -630px;
+  left: -832px;
 }
 .container .d-radar .p-radar #antiCorrupcion {
-  left: -250px;
-  top: 100px;
+  left: -350px;
+  top: 120px;
 }
 .container .d-radar .p-radar #generacionEmpleo {
-  left: -400px;
-  top: -120px;
+  left: -540px;
+  top: -180px;
 }
 .container .d-radar .p-radar #adaptacionCClimatico {
-  left: -530px;
-  top: -80px;
+  left: -710px;
+  top: -40px;
 }
 .container .d-radar .p-radar #trabajoRemoto {
-  left: -450px;
-  top: -100px;
+  left: -610px;
+  top: -115px;
 }
 .container .d-radar .p-radar #diversidad {
-  left: -480px;
-  top: -160px;
+  left: -652px;
+  top: -180px;
 }
 .container .d-radar .p-radar #energiaAlternativa {
-  left: -600px;
-  top: -125px;
+  left: -810px;
+  top: -175px;
 }
 .container .d-radar .p-radar #descarbonizacion {
-  left: -690px;
+  left: -906px;
   top: -125px;
 }
 .container .d-radar .p-radar .modal-content {
@@ -118,8 +120,8 @@
   top: 16px;
   left: 16px;
   border-right: solid 1px hsla(145deg, 50%, 40%, 0.3);
-  width: 380px;
-  height: 378px;
+  width: 484px;
+  height: 480px;
   border-radius: 100% 0 0 0;
   transform-origin: 100% 100%;
   background: linear-gradient(50deg, rgba(34, 34, 34, 0) 56%, rgb(5, 243, 96));
@@ -135,20 +137,16 @@
   display: none;
 }
 
-@media (max-width: 998px) {
+@media (max-width: 1400px) {
   .r-container {
     width: 100%;
-  }
-  .container .d-radar .radar,
-  .container .d-radar .sweep {
-    display: none;
   }
   .container .r-panel .panel {
     margin-top: -20rem;
     z-index: 10;
   }
 }
-@media (max-width: 640px) {
+@media (max-width: 998px) {
   .r-container {
     display: none;
   }

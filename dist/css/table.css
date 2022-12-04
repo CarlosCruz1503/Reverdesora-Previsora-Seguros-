@@ -1,13 +1,15 @@
 .container .t-claves {
-  margin-top: 2rem;
+  margin-top: 3rem;
   text-align: center;
 }
 .container .t-claves .t-gray {
   color: gray;
   margin: 0;
+  font-size: 1.5rem;
 }
 .container .t-claves .t-h1 {
   margin-top: -0.6rem;
+  font-size: 3rem;
 }
 .container .t-table {
   display: flex;
@@ -22,20 +24,20 @@
   align-items: center;
 }
 .container .table .benefits .img-benefits img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3.2rem;
+  height: 3.2rem;
 }
 .container .table .benefits .t-benefits {
   display: flex;
   flex-direction: column;
 }
 .container .table .benefits .t-benefits .b-title {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   padding: 0;
   margin: 0;
 }
 .container .table .benefits .t-benefits .b-description {
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-family: var(--font-family-description);
 }
 .container .table .th-img img {
@@ -50,8 +52,8 @@
   justify-content: center;
 }
 .container .table .td-c-img .div-td-img .correct-img {
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
   padding: 0;
   margin-top: 0.8rem;
 }
@@ -62,7 +64,7 @@
 }
 .container .table .td-T .div-p .x {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .container .text-final {
   display: flex;
@@ -73,9 +75,10 @@
 }
 .container .text-final p {
   margin: 0;
+  font-size: 1.3rem;
 }
 .container .text-final .text-desc {
-  font-size: 0.7rem;
+  font-size: 1.3rem;
   font-family: var(--font-family-description);
 }
 

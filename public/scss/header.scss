@@ -23,7 +23,7 @@
         & .h-text {
             margin-top: 3rem;
             margin-left: 4rem;
-            font-size: 8px;
+            font-size: 0.8rem;
         }
 
         & .h-title {
@@ -33,6 +33,7 @@
 
             & h1 {
                 margin-bottom: 0;
+                font-size: 4rem;
             }
 
             & h2 {
@@ -45,6 +46,7 @@
             margin-top: 0.6rem;
             margin-left: 4rem;
             margin-bottom: 0;
+            font-size: 1.5rem;
         }
 
         & .h-form {
@@ -76,7 +78,7 @@
 
             & img {
                 border: var(--color-text) 1px solid;
-                width: 90%;
+                width: 100%;
                 margin: auto;
             }
         }
@@ -98,7 +100,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 0.9rem;
+            font-size: 1rem;
             margin-right: 1rem;
         }
 
@@ -128,7 +130,7 @@
         }
 
         & .info {
-            font-size: 0.6rem;
+            font-size: 0.8rem;
             
         }
     }

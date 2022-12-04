@@ -13,13 +13,13 @@
     & .logo{
         display: flex;
         & img{
-            height: 3rem;
+            height: 5rem;
         }
     }
     & .buttons{
         width:auto;
         & a{
-            font-size: 0.85rem;
+            font-size: 1.3rem;
             border: 0;
             background-color: #FFFFFF;
             border-bottom: var(--color-text) 1px solid;

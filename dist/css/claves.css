@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Solway:wght@700&display=swap");
 .con-clave {
-  margin-top: 1rem;
+  margin-top: 3rem;
   text-align: center;
   color: black;
 }
 .con-clave .c-h1 {
   margin-top: -0.6rem;
+  font-size: 3rem;
 }
 .con-clave .gray {
   color: gray;
   margin: 0;
+  font-size: 1.5rem;
 }
 .con-clave .row .c-img {
   display: flex;
@@ -18,8 +20,8 @@
   margin-bottom: 1rem;
 }
 .con-clave .row .c-img img {
-  height: 32rem;
-  width: 20rem;
+  height: 48rem;
+  width: 30rem;
   border-radius: 1rem;
 }
 .con-clave .row .c-claves {
@@ -49,13 +51,31 @@
   color: var(--color-text);
 }
 .con-clave .row .c-claves .card-card .r-card .card-size .card-body .card-title {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 .con-clave .row .c-claves .card-card .r-card .card-size .card-body .card-text {
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-family: var(--font-family-description);
 }
 
+@media (max-width: 998px) {
+  .con-clave .row .c-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .con-clave .row .c-img img {
+    height: 48rem;
+    width: auto;
+    border-radius: 1rem;
+  }
+  .con-clave .row .c-claves {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media (max-width: 768px) {
   .con-clave .row .c-img {
     display: flex;
