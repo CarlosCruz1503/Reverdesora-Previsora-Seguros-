@@ -11,7 +11,7 @@
     }
 
     & .gray {
-        color: gray;
+        color: var(--color-text);
         margin: 0;
         font-size: 1.5rem;
     }
@@ -56,17 +56,18 @@
                             border-radius: 0.5rem;
                             font-size: 2rem;
                             color: var(--color-text);
+                            width: 4rem;
                         }
                     }
 
                     & .card-size {
                         & .card-body {
                             & .card-title {
-                                font-size: 2rem;
+                                font-size: 1.3rem;
                             }
 
                             & .card-text {
-                                font-size: 1rem;
+                                font-size: 1.2rem;
                                 font-family: var(--font-family-description)
                             }
                         }

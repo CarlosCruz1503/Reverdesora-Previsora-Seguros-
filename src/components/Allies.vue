@@ -9,10 +9,10 @@
             <img  class="a-img" src="../../public/img/a-2.png" alt="">
             <img  class="a-img" src="../../public/img/a-3.jpg" alt="">
             <img  class="a-img" src="../../public/img/a-4.png" alt="">
-            <img  class="a-img" src="../../public/img/a-1.png" alt="">
-            <img  class="a-img" src="../../public/img/a-2.png" alt="">
-            <img  class="a-img" src="../../public/img/a-3.jpg" alt="">
-            <img  class="a-img" src="../../public/img/a-4.png" alt="">
+            <img  class="a-img" src="../../public/img/a-5.png" alt="">
+            <img  class="a-img" src="../../public/img/a-6.png" alt="">
+            <img  class="a-img" src="../../public/img/a-7.png" alt="">
+            <img  class="a-img" src="../../public/img/a-8.png" alt="">
         </div>
     </div>
 </template>

@@ -2,7 +2,7 @@
     <div class="card card-card" >
         <div class="row g-0 r-card">
             <div class="col-md-4 icon">
-                <i :class=icon class="i-icon"></i>
+                <img :src=icon class="i-icon">
             </div>
             <div class="col card-size">
                 <div class="card-body">

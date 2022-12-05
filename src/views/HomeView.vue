@@ -1,12 +1,12 @@
 <template>
   <div class="home">
     <Header />
+    <Radar id="radar"/>
     <Claves id="claves"/>
     <Services id="services" />
     <Table id="table"/>
     <Allies id="allies"/>
     <Faq />
-    <Radar />
     <Footer />
   </div>
 </template>

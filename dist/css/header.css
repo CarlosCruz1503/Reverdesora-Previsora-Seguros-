@@ -1,11 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
-:root {
-  --color-text: #53C222;
-  --color-text-2: #FDFDFC;
-  --font-family-description: "Titillium Web", sans-serif;
-}
-
 .div-header {
   height: auto;
   display: flex;
@@ -22,7 +14,10 @@
 .div-header .d-header .h-text {
   margin-top: 3rem;
   margin-left: 4rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
+}
+.div-header .d-header .h-text p {
+  font-family: var(--font-family-description);
 }
 .div-header .d-header .h-title {
   margin-top: 0.6rem;
@@ -31,11 +26,9 @@
 }
 .div-header .d-header .h-title h1 {
   margin-bottom: 0;
-  font-size: 4rem;
-}
-.div-header .d-header .h-title h2 {
-  margin-bottom: 0;
-  margin-top: -0.7rem;
+  font-size: 3rem;
+  padding: 0;
+  color: white;
 }
 .div-header .d-header .h-description {
   margin-top: 0.6rem;
@@ -43,8 +36,11 @@
   margin-bottom: 0;
   font-size: 1.5rem;
 }
+.div-header .d-header .h-description p {
+  font-family: var(--font-family-description);
+}
 .div-header .d-header .h-form {
-  margin-top: 0.6rem;
+  margin-top: auto;
   margin-left: 4rem;
   margin-bottom: 0;
   display: flex;
@@ -90,6 +86,9 @@
   font-size: 1rem;
   margin-right: 1rem;
 }
+.div-header .f-header .title p {
+  font-family: var(--font-family-description);
+}
 .div-header .f-header .t-1 {
   background-color: #7ddda2;
   border-radius: 1.1rem;
@@ -113,7 +112,8 @@
   margin-bottom: 0;
 }
 .div-header .f-header .info {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-family: var(--font-family-description);
 }
 
 @media (max-width: 1200px) {
@@ -128,12 +128,24 @@
     width: auto;
   }
 }
+@media (max-width: 998px) {
+  .div-header .d-header .h-title h1 {
+    margin-bottom: 0;
+    font-size: 3rem;
+    padding: 0;
+  }
+}
 @media (max-width: 768px) {
   .div-header .d-header .h-text {
     margin-left: 2rem;
   }
   .div-header .d-header .h-title {
     margin-left: 2rem;
+  }
+  .div-header .d-header .h-title h1 {
+    margin-bottom: 0;
+    font-size: 3rem;
+    padding: 0;
   }
   .div-header .d-header .h-description {
     margin-left: 2rem;

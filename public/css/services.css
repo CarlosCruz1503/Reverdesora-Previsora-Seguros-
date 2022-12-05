@@ -11,7 +11,7 @@
   font-size: 3rem;
 }
 .container .d-services .gray {
-  color: gray;
+  color: var(--color-text);
   margin: 0;
   font-size: 1.5rem;
 }
@@ -59,7 +59,7 @@
   color: rgba(0, 0, 0, 0.253);
 }
 .container .d-services .r-services .card .card-body .s-text {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: var(--font-family-description);
 }
 .container .d-services .r-services .card .card-body .s-a {

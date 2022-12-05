@@ -1,30 +1,37 @@
 <template>
     <div class="container">
         <div class="d-services">
-            <p class="gray">¿ POR QUÉ ?</p>
-            <h1 class="s-h1">Tú y tu empresa merecen este seguro</h1>
+            <p class="gray">Servicios
+            </p>
+            <h1 class="s-h1">…Todo lo que necesitas para reverdecer tu negocio
+            </h1>
             <div class="row r-services">
                 <div class="col-12 col-md-6 col-lg-4 r-services">
-                    <ServicesCard icon="bi bi-people-fill" SText="Optimización de su responsabilidad social empresarial."
+                    <ServicesCard icon="bi bi-people-fill"
+                        SText="Optimización de su responsabilidad social empresarial."
                         SButton="Ver ventajas de ser una empresa ASG" SNumber="1"
                         link="https://redshift.autodesk.es/que-es-asg/" />
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 r-services">
                     <ServicesCard icon="bi bi-cash"
-                        SText="Una empresa ambientalmente responsable debe pagar menos impuestos"
-                        SButton="Legislaciones sobre sostenibilidad empresarial" SNumber="2"
+                        SText="Orientación para acceder a beneficios tributarios por proyectos ambientales y líneas de crédito a la medida de sus necesidades.
+                        "
+                        SButton="Beneficios Tributarios ambientales
+                        " SNumber="2"
                         link="https://www.minambiente.gov.co/lideres-ambientales/normativa-ambiental/" />
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 r-services">
                     <ServicesCard icon="bi bi-piggy-bank"
-                        SText="Aseguraremos su inversion, así que puede desarollar el proyecto con tranquilidad "
+                        SText="Invierta en forma confiable mientras optimiza sus recursos.
+                        "
                         SButton="Calculadora de costos a ahorrar" SNumber="3" link="https://www.soyeficiente.com/" />
                 </div>
             </div>
             <div class="row r-services">
                 <div class="col-12 col-md-6 col-lg-4 r-services">
                     <ServicesCard icon="bi bi-bank"
-                        SText="Al ser una empresa sostenible y responsable ambientalmente podría obtener beneficios gubernamentales"
+                        SText="Mejore la relación riesgo/retorno de sus inversiones
+                        "
                         SButton="Legislaciones sobre sostenibilidad empresarial" SNumber="4"
                         link="https://www.minambiente.gov.co/lideres-ambientales/normativa-ambiental/" />
                 </div>

@@ -4,7 +4,7 @@
         text-align: center;
 
         & .t-gray {
-            color: gray;
+            color: var(--color-text);
             margin: 0;
             font-size: 1.5rem;
         }
@@ -24,6 +24,15 @@
     & .table {
         & .t-head{
             border-bottom: 1px solid var(--color-text);
+            & tr {
+                & th{
+                    p{
+                        font-family: var(--font-family-description);
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+            }
         }
         & .benefits {
             display: flex;
@@ -44,6 +53,7 @@
                     font-size: 1.2rem;
                     padding: 0;
                     margin: 0;
+                    font-family: var(--font-family-description);
                 }
 
                 & .b-description {
@@ -69,8 +79,8 @@
                 align-items: center;
                 justify-content: center;
                 & .correct-img {
-                    width: 4rem;
-                    height: 4rem;
+                    width: 3rem;
+                    height: 3rem;
                     padding: 0;
                     margin-top: 0.8rem;
                 }
@@ -86,7 +96,7 @@
 
                 & .x {
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                    font-size: 4rem;
+                    font-size: 3rem;
                 }
             }
         }
@@ -99,10 +109,10 @@
         text-align: center;
         p{
             margin: 0;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
         }
         .text-desc{
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             font-family: var(--font-family-description);
         }
     }

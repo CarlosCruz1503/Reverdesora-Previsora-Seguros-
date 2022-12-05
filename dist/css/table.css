@@ -3,7 +3,7 @@
   text-align: center;
 }
 .container .t-claves .t-gray {
-  color: gray;
+  color: var(--color-text);
   margin: 0;
   font-size: 1.5rem;
 }
@@ -18,6 +18,11 @@
 }
 .container .table .t-head {
   border-bottom: 1px solid var(--color-text);
+}
+.container .table .t-head tr th p {
+  font-family: var(--font-family-description);
+  padding: 0;
+  margin: 0;
 }
 .container .table .benefits {
   display: flex;
@@ -35,6 +40,7 @@
   font-size: 1.2rem;
   padding: 0;
   margin: 0;
+  font-family: var(--font-family-description);
 }
 .container .table .benefits .t-benefits .b-description {
   font-size: 1rem;
@@ -52,8 +58,8 @@
   justify-content: center;
 }
 .container .table .td-c-img .div-td-img .correct-img {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   padding: 0;
   margin-top: 0.8rem;
 }
@@ -64,7 +70,7 @@
 }
 .container .table .td-T .div-p .x {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .container .text-final {
   display: flex;
@@ -75,10 +81,10 @@
 }
 .container .text-final p {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 .container .text-final .text-desc {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-family: var(--font-family-description);
 }
 

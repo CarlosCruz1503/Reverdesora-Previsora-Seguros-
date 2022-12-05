@@ -1,10 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Solway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka+One&family=Istok+Web:wght@700&family=Solway:wght@300&display=swap");
 :root {
   overflow-x: hidden;
+  --color-text: #53C222;
+  --color-text-2: #FDFDFC;
+  --font-family-description: "Titillium Web", sans-serif;
 }
 
 * {
-  font-family: "Solway", serif;
+  font-family: "Fredoka One", cursive;
 }
 
 .nav {
@@ -16,7 +20,7 @@
   display: flex;
 }
 .nav .logo img {
-  height: 5rem;
+  width: 25rem;
 }
 .nav .buttons {
   width: auto;
@@ -29,6 +33,7 @@
   margin: 5px;
   text-decoration: none;
   color: black;
+  font-family: var(--font-family-description);
 }
 .nav .solicitud .p-solicitud {
   margin-top: 0.2rem;

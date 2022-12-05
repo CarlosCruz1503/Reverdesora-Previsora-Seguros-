@@ -1,5 +1,5 @@
 <template>
-    <button :id=name class="radar-item" :class=grup type="button" data-bs-toggle="modal" :data-bs-target=targetA  >
+    <button :id=name class="radar-item Quitar" :class=grup type="button" data-bs-toggle="modal" :data-bs-target=targetA  >
         {{Title}}
         <i class="bi bi-award-fill"></i>
     </button>
@@ -12,8 +12,11 @@
                 </div>
                 <div class="modal-body">
                     {{Description}}
+                    <br>
+                    Costos : {{Costo}}M 
                 </div>
                 <div class="modal-footer">
+                    
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -31,7 +34,8 @@ export default {
         nameLabel:String,
         Title:String,
         Description:String,
-        grup:String
+        grup:String,
+        Costo:String
     }
 }
 </script>

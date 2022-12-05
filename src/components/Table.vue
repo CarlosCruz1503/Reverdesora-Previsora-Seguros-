@@ -11,13 +11,17 @@
                     <table class="table">
                         <thead class="t-head">
                             <tr>
-                                <th scope="col">Beneficios</th>
+                                <th scope="col">
+                                    <p> Beneficios</p>
+                                </th>
                                 <th scope="col"></th>
                                 <th scope="col"></th>
                                 <th scope="col"></th>
                                 <th scope="col" class="th-img"><img src="../../public/img/logo-previsora.png" alt="">
                                 </th>
-                                <th scope="col" class="th-venta">Seguro Sura</th>
+                                <th scope="col" class="th-venta">
+                                    <p>Seguro Sura</p>
+                                </th>
                             </tr>
                         </thead>
                         <tbody>

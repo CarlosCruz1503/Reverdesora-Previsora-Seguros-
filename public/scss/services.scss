@@ -13,7 +13,7 @@
         }
 
         & .gray {
-            color: gray;
+            color: var(--color-text);
             margin: 0;
             font-size: 1.5rem;
         }
@@ -65,7 +65,7 @@
                     }
 
                     & .s-text {
-                        font-size: 1.5rem;
+                        font-size: 1.2rem;
                         font-family: var(--font-family-description);
                     }
 
