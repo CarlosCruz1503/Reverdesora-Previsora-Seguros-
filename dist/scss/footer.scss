@@ -1,22 +1,79 @@
 .footer {
-    background-color: #F6FCFF;
+    background-color: rgb(33, 36, 42);
     margin-top: 2rem;
     padding: 0;
 
-    & .f-img {
-        margin: 2rem;
+    & .section-footer {
+        font-size: 1rem;
+        color: white;
+        font-family: var(--font-family-description);
         padding: 0;
-        img{
-            width: 15rem;
-        }
-    }
+        flex-direction: column;
+        margin-top: 1rem;
 
-    & .f-text {
-        margin-left : 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 2rem;
-        color: var(--color-text);
+        .title {
+            font-family: var(--font-family-description);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .enlaceSimple {
+            margin-left: 1rem;
+            font-family: var(--font-family-description);
+            margin: 0;
+        }
+
+        .text-gray {
+            font-family: var(--font-family-description);
+            font-size: 0.86rem;
+            color: gray;
+            margin-left: 1rem;
+            margin-top: -1rem;
+            margin: 0;
+        }
+
+        .form-sec-1 {
+            display: flex;
+
+            .inputs {
+                background-color: rgb(71, 83, 105);
+                width: 8rem;
+                border: none;
+                text-align: center;
+            }
+
+            .emails {
+                input {
+                    text-align: center;
+                    margin-left: 1rem;
+                }
+            }
+        }
+
+        .form-sec-2 {
+            display: flex;
+            flex-direction: column;
+            width: 17rem;
+            margin: 1rem 0rem;
+
+            input{
+                background-color: rgb(71, 83, 105);
+                border: none;
+                text-align: center;
+            }
+
+            & #submit {
+                margin-top: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                input{
+                    background-color: #18BA60;
+                    color:white;
+                    padding: 0.2rem 1.2rem;
+                    border-radius: 0.5rem;
+                }
+            }
+        }
     }
 }

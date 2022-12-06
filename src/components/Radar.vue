@@ -257,18 +257,6 @@ export default {
         ItemRadar,
     },
     mounted() {
-        function comprobar(switchNum, costo, nameButton, targetAa) {
-            let switchX = document.querySelector(switchNum);
-            if (window.innerWidth < 769) {
-                switchX.setAttribute("id", nameButton)
-                switchX.setAttribute("data-bs-target", targetAa)
-                switchX.setAttribute("data-bs-toggle", "modal")
-                switchX.setAttribute("type", "radio")
-                switchX.setAttribute("role", "button")
-                console.log("hola")
-                inversion.value = parseInt(inversion.value) + costo
-            }
-        }
         window.addEventListener('load', function () {
             comprobar('#switch10', 15, 'generacionEmpleo', '#gETarget')
         });
