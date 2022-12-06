@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/Faq.scss"],"names":[],"mappings":"AACI;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;;AAIR;EACI;EACA;;AACA;EACI;EACA;;AAGA;EACI;EACA","file":"Faq.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/Faq.scss"],"names":[],"mappings":"AACI;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;EACA;;AAIR;EACI;EACA;;AACA;EACI;EACA;;AAGA;EACI;EACA;;;AAMhB;EAEQ;IACI;IACA","file":"Faq.css"}

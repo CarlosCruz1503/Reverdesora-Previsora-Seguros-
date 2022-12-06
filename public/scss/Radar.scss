@@ -34,7 +34,7 @@
     }
 
     .r-title {
-        & h1{
+        & h1 {
             color: var(--color-text);
         }
     }
@@ -183,6 +183,24 @@
             flex-direction: column;
             margin-top: 1rem;
 
+            & #ambientales {
+                background-color: #C5E0B4;
+                padding: 1rem;
+                border-radius: 1.5rem;
+            }
+
+            & #sociales {
+                background-color: #FFD966;
+                padding: 1rem;
+                border-radius: 1.5rem;
+            }
+
+            & #gobernanza {
+                background-color: #C55A11;
+                padding: 1rem;
+                border-radius: 1.5rem;
+            }
+
             & .form-switch {
                 padding: 0;
                 margin: 0;
@@ -204,6 +222,44 @@
                 }
             }
         }
+    }
+}
+
+.modal {
+    .modal-dialog {
+        .modal-content {
+            .modal-header {
+                font-family: var(--font-family-description);
+                border-bottom: 2px solid var(--color-text);
+
+                .modal-title {
+                    font-family: var(--font-family-description);
+                }
+
+                .modal-icon {
+                    width: 3rem;
+                    height: 3rem;
+                    margin: 1rem;
+                }
+            }
+
+            .modal-body {
+                font-family: var(--font-family-description);
+
+                .modal-body-title {
+                    color: var(--color-text)
+                }
+
+                p {
+                    font-family: var(--font-family-description);
+                }
+            }
+
+            .modal-footer {
+                font-family: var(--font-family-description);
+            }
+        }
+
     }
 }
 
@@ -237,15 +293,39 @@
         width: 100%;
     }
 
-    .container .d-radar .radar,
-    .container .d-radar .sweep {}
-
-    .container .r-panel .panel {}
 }
 
+@media (max-width: 1200px) {
+
+    #radar>div.visible>div>div:nth-child(1) {
+        display: flex;
+        flex-direction: row;
+    }
+    #p-gobernanza{
+        margin-top: -10rem;
+        z-index: 10;
+    }
+}
+
+
 @media (max-width: 768px) {
-    .r-container {
+    
+    #radar > div.visible > div > div.col-12.col-xl-8.d-radar .radar{
         display: none;
     }
+    #radar > div.visible > div > div.col-12.col-xl-8.d-radar .r-img{
+        display: none;
+    }
+    #radar>div.visible>div>div:nth-child(1) {
+        display: block;
+    }
+    #p-gobernanza{
+        margin-top: 1rem;
+        z-index: 10;
+    }
+    
+    
+    
+    
 
 }

@@ -50,14 +50,16 @@
                 flex-direction: column;
 
                 & .b-title {
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                     padding: 0;
                     margin: 0;
+                    margin-left: 0.5rem;
                     font-family: var(--font-family-description);
                 }
 
                 & .b-description {
                     font-size: 1rem;
+                    margin-left: 0.5rem;
                     font-family: var(--font-family-description);
                 }
             }
@@ -117,4 +119,14 @@
         }
     }
     
+}
+@media (max-width: 768px) {
+    .t-claves {
+        #th{
+            margin-top: -0.6rem;
+            font-size: 2.5rem;
+        }
+
+    }
+
 }

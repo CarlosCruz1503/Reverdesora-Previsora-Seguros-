@@ -1,8 +1,8 @@
 <template>
     <div class="container">
         <div class="f-claves">
-            <p class="gray">RESOLVEMOS TUS DUDAS</p>
-            <h1 class="f-h1">Preguntas frecuentes</h1>
+            <p class="gray">Resolvemos tus dudas</p>
+            <h1 class="f-h1" id="fh">Preguntas frecuentes</h1>
         </div>
         <div class="faq">
             <div class="row">

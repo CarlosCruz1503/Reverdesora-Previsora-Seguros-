@@ -1,18 +1,13 @@
 <template>
     <div class="container">
         <div class="a-claves">
-            <p class="gray">ALIADOS PREVISORA</p>
-            <h1 class="a-h1">ALIADOS</h1>
+            <h1 class="a-h1" id="ah">Aliados</h1>
         </div>
         <div class="a-imagenes">
-            <img  class="a-img" src="../../public/img/a-1.png" alt="">
+            <img  class="a-img" src="../../public/img/a-1.jpg" alt="">
             <img  class="a-img" src="../../public/img/a-2.png" alt="">
-            <img  class="a-img" src="../../public/img/a-3.jpg" alt="">
-            <img  class="a-img" src="../../public/img/a-4.png" alt="">
-            <img  class="a-img" src="../../public/img/a-5.png" alt="">
-            <img  class="a-img" src="../../public/img/a-6.png" alt="">
-            <img  class="a-img" src="../../public/img/a-7.png" alt="">
-            <img  class="a-img" src="../../public/img/a-8.png" alt="">
+            <img  class="a-img" src="../../public/img/a-3.png" alt="">
+        
         </div>
     </div>
 </template>

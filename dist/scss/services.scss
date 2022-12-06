@@ -22,6 +22,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+
             & .card {
                 border: none;
                 width: 24rem;
@@ -78,5 +79,23 @@
 
 
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .d-services {
+        #servicesh {
+            font-size: 2rem;
+        }
+    }
+    .container .d-services .r-services .card .card-body .s-text{
+        font-size: 1rem;
+    }
+
+    .container .d-services .r-services .card .card-body .s-a{
+        font-size:1rem;
+    }
+    .container .d-services .r-services .card {
+        height: auto;
     }
 }

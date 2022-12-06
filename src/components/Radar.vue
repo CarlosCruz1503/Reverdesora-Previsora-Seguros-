@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-12 col-xl-2 r-panel">
                     <div class="panel">
-                        <h3>Ambientales</h3>
+                        <h3 id="ambientales">Ambientales</h3>
                         <div class="form-check form-switch">
                             <label class="form-check-label " for="switch1">Gestión Del Agua</label>
                             <input class="form-check-input desactivado" type="checkbox" role="switch" id="switch1"
@@ -71,7 +71,7 @@
                     </div>
                     <hr>
                     <div class="panel">
-                        <h3>Sociales</h3>
+                        <h3 id="sociales">Sociales</h3>
                         <div class="form-check form-switch">
                             <label class="form-check-label " for="switch6">Prevención accidentes
                             </label>
@@ -100,7 +100,7 @@
                             <label class="form-check-label " for="switch10">Generación de empleo
                             </label>
                             <input class="form-check-input desactivado" type="checkbox" role="switch" id="switch10"
-                                v-on:click="aparecerDesaparecer('#switch10', '#generacionEmpleo', 15)">
+                                v-on:click="(aparecerDesaparecer('#switch10', '#generacionEmpleo', 15))">
                         </div>
                         <div class="form-check form-switch">
                             <label class="form-check-label " for="switch11">Derechos de los trabajadores
@@ -124,8 +124,16 @@
                             Description="Existen miles de iniciativas y buenas prácticas que las organizaciones pueden llevar a cabo para ejercer una gestión del agua más responsable. Sin embargo, la mayoría de organizaciones apuesta por lo que conocemos como la regla de las Tres Erres: reducir, reutilizar, reciclar." />
 
                         <ItemRadar name="economiaCircular" target="eCTarget" targetA="#eCTarget" nameLabel="eCLabel"
-                            Title="Economia Circular" grup="ambiental" Costo="500"
-                            Description="La economía circular establece un modelo de producción y consumo más sostenible, en el que las materias primas se mantienen más tiempo en los ciclos productivos y pueden aprovecharse de forma recurrente, procurando con ello generar muchos menos residuos." />
+                            Title="Economia Circular" grup="ambiental" Costo="500" cubrimos1="* Amparo de responsabilidad civil por contaminación de disposición de residuos 
+                            " cubrimos2="* Amparo todo riesgo a equipos, maquinaria e infraestructura relacionados con proyectos de implementación de economía circular en cualquier etapa (transporte, implementación y desarrollo)
+                            " noCubrimos1="* Daños ambientales por incumplimiento doloso de normativa ambiental. 
+                            " noCubrimos2="* Contaminación de área no inspeccionada previamente
+                            " noCubrimos3="* Contaminación olfativa derivada de actividades de reciclaje
+                            " asistencias1="* Asistencia de financiación de programas de gestión ambiental con nuestros aliados (Grupo Bicentenario). 
+                            " asistencias2="* Asistencia con Ministerio de Ambiente y entidades involucradas para asesoramiento en implementación de programas de gestión ambiental.
+                            " asistencias3="* Asistencia en mantenimiento de equipos de conservación ambiental e infraestructura. 
+                            " img="https://cdn-icons-png.flaticon.com/512/7417/7417583.png
+                            " />
 
                         <ItemRadar name="pCC" target="pCCTarget" targetA="#pCCTarget" nameLabel="pCCLabel" Title=" 
                             Prevención y Control de la contaminación" grup="ambiental" Costo="150"
@@ -199,8 +207,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-xl-2 r-panel">
-                    <div class="panel">
-                        <h3>Gobernanza</h3>
+                    <div class="panel" id="p-gobernanza">
+                        <h3 id="gobernanza">Gobernanza</h3>
                         <div class="form-check form-switch">
                             <label class="form-check-label " for="switch12">Anticorrupción
                             </label>
@@ -248,8 +256,25 @@ export default {
     components: {
         ItemRadar,
     },
+    mounted() {
+        function comprobar(switchNum, costo, nameButton, targetAa) {
+            let switchX = document.querySelector(switchNum);
+            if (window.innerWidth < 769) {
+                switchX.setAttribute("id", nameButton)
+                switchX.setAttribute("data-bs-target", targetAa)
+                switchX.setAttribute("data-bs-toggle", "modal")
+                switchX.setAttribute("type", "radio")
+                switchX.setAttribute("role", "button")
+                console.log("hola")
+                inversion.value = parseInt(inversion.value) + costo
+            }
+        }
+        window.addEventListener('load', function () {
+            comprobar('#switch10', 15, 'generacionEmpleo', '#gETarget')
+        });
+    },
     methods: {
-        aparecerDesaparecer(switchNum, idButton, costo) {
+        aparecerDesaparecer(switchNum, idButton, costo,) {
             let switchX = document.querySelector(switchNum);
             let item = document.querySelector(idButton);
             let inversion = document.querySelector("#inversion");
@@ -265,6 +290,8 @@ export default {
                 inversion.value = parseInt(inversion.value) - costo
             }
         }
+
     }
 }
+
 </script>

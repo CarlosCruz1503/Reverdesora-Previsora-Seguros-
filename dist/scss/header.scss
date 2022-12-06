@@ -54,8 +54,9 @@
             margin-bottom: 2rem;
 
             & input {
+                text-align: center;
                 height: 2rem;
-                width: 12rem;
+                width: 14rem;
                 border: none;
                 border-radius: 1rem;
             }
@@ -84,28 +85,32 @@
 
     & .f-header {
         height: auto;
-        width: 50%;
+        width: 78%;
         margin-top: -1rem;
         border-radius: 1.1rem;
         background-color: #FFFFFF;
         padding: 1.3rem;
         text-align: center;
 
+
         & .title {
-            background-color: #8ca192;
+            background-color: #CABAC8;
             border-radius: 1.1rem;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 1rem;
             margin-right: 1rem;
-            p{
+
+
+            p {
+                margin-top: 1rem;
                 font-family: var(--font-family-description);
             }
         }
 
         & .t-1 {
-            background-color: #7ddda2;
+            background-color: #CABAC8;
             border-radius: 1.1rem;
             margin-right: 1rem;
             display: flex;
@@ -116,7 +121,7 @@
         }
 
         & .t-2 {
-            background-color: #94f666;
+            background-color: #CABAC8;
             border-radius: 1.1rem;
             display: flex;
             align-items: center;
@@ -126,8 +131,9 @@
 
         & .cifra {
             color: black;
-            font-size: 1.1rem;
+            font-size: 1.5rem;
             margin-bottom: 0;
+            color:red;
         }
 
         & .info {
@@ -157,12 +163,30 @@
 @media (max-width: 998px) {
     .div-header {
         & .d-header {
+            & .h-text {
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+
             & .h-title {
+                margin-left: 2rem;
+                margin-right: 2rem;
+
                 & h1 {
                     margin-bottom: 0;
-                    font-size: 3rem;
+                    font-size: 2rem;
                     padding: 0;
                 }
+            }
+
+            & .h-description {
+                margin-left: 2rem;
+                margin-right: 2rem;
+                font-size: 1.2rem;
+            }
+
+            & .h-form {
+                margin-left: 2rem;
             }
         }
     }
@@ -172,22 +196,25 @@
     .div-header {
         & .d-header {
             & .h-text {
-                margin-left: 2rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
             }
 
             & .h-title {
-                margin-left: 2rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
 
                 & h1 {
                     margin-bottom: 0;
-                    font-size: 3rem;
+                    font-size: 2rem;
                     padding: 0;
                 }
             }
 
             & .h-description {
-                margin-left: 2rem;
-                margin-right: 2rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                font-size: 1.2rem;
             }
 
             & .h-form {

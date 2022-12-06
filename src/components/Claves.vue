@@ -1,8 +1,8 @@
 <template>
     <div class="container con-clave">
         <div class="d-claves">
-            <p class="gray">BENEFICIOS</p>
-            <h1 class="c-h1">Lo que te ofrecemos</h1>
+            <p class="gray"></p>
+            <h1 class="c-h1">Beneficios</h1>
         </div>
         <div class="row">
             <div class="col-12 col-lg-6 c-img">

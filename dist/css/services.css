@@ -67,4 +67,19 @@
   font-size: 1rem;
 }
 
+@media (max-width: 768px) {
+  .d-services #servicesh {
+    font-size: 2rem;
+  }
+  .container .d-services .r-services .card .card-body .s-text {
+    font-size: 1rem;
+  }
+  .container .d-services .r-services .card .card-body .s-a {
+    font-size: 1rem;
+  }
+  .container .d-services .r-services .card {
+    height: auto;
+  }
+}
+
 /*# sourceMappingURL=services.css.map */

@@ -144,6 +144,21 @@
   flex-direction: column;
   margin-top: 1rem;
 }
+.container .r-panel .panel #ambientales {
+  background-color: #C5E0B4;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+.container .r-panel .panel #sociales {
+  background-color: #FFD966;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+.container .r-panel .panel #gobernanza {
+  background-color: #C55A11;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
 .container .r-panel .panel .form-switch {
   padding: 0;
   margin: 0;
@@ -160,6 +175,31 @@
   margin-bottom: 0.25rem;
   font-family: var(--font-family-description);
   text-align: start;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+  font-family: var(--font-family-description);
+  border-bottom: 2px solid var(--color-text);
+}
+.modal .modal-dialog .modal-content .modal-header .modal-title {
+  font-family: var(--font-family-description);
+}
+.modal .modal-dialog .modal-content .modal-header .modal-icon {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+}
+.modal .modal-dialog .modal-content .modal-body {
+  font-family: var(--font-family-description);
+}
+.modal .modal-dialog .modal-content .modal-body .modal-body-title {
+  color: var(--color-text);
+}
+.modal .modal-dialog .modal-content .modal-body p {
+  font-family: var(--font-family-description);
+}
+.modal .modal-dialog .modal-content .modal-footer {
+  font-family: var(--font-family-description);
 }
 
 .sweep {
@@ -189,9 +229,29 @@
     width: 100%;
   }
 }
+@media (max-width: 1200px) {
+  #radar > div.visible > div > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+  }
+  #p-gobernanza {
+    margin-top: -10rem;
+    z-index: 10;
+  }
+}
 @media (max-width: 768px) {
-  .r-container {
+  #radar > div.visible > div > div.col-12.col-xl-8.d-radar .radar {
     display: none;
+  }
+  #radar > div.visible > div > div.col-12.col-xl-8.d-radar .r-img {
+    display: none;
+  }
+  #radar > div.visible > div > div:nth-child(1) {
+    display: block;
+  }
+  #p-gobernanza {
+    margin-top: 1rem;
+    z-index: 10;
   }
 }
 

@@ -2,11 +2,14 @@
   <div class="home">
     <Header />
     <Radar id="radar"/>
+    <ODS id="ods"/>
     <Claves id="claves"/>
+    <Porque id="Porque"/>
     <Services id="services" />
     <Table id="table"/>
     <Allies id="allies"/>
     <Faq />
+    <Team />
     <Footer />
   </div>
 </template>
@@ -21,10 +24,13 @@ import Allies from '@/components/Allies.vue'
 import Faq from '@/components/Faq.vue'
 import Footer from '@/components/Footer.vue'
 import Radar from '@/components/Radar.vue'
+import ODS from '@/components/Ods.vue'
+import Porque from '@/components/Porque.vue'
+import Team from '@/components/Team.vue'
 export default {
   name: 'HomeView',
   components: {
-    Header, Claves, Services, Table, Allies, Faq, Footer, Radar
+    Header, Claves, Services, Table, Allies, Faq, Footer, Radar, ODS, Porque, Team
   }
 }
 </script>

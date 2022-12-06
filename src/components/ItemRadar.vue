@@ -7,16 +7,41 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
+                    <img class="modal-icon" :src=img>
                     <h1 class="modal-title fs-5" :id=nameLabel >  {{Title}} </h1>
+                    
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    {{Description}}
-                    <br>
-                    Costos : {{Costo}}M 
+                    <h4 class="modal-body-title">¿Qué cubrimos?
+                    </h4>
+                    <p>{{cubrimos1}}</p>
+                    <p>{{cubrimos2}}</p>
+                    <p>{{cubrimos3}}</p>
+                    <p>{{cubrimos4}}</p>
+                    <p>{{cubrimos5}}</p>
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-body-title">¿Qué no cubrimos?
+
+                    </h4>
+                    <p>{{noCubrimos1}}</p>  
+                    <p>{{noCubrimos2}}</p>  
+                    <p>{{noCubrimos3}}</p>  
+                    <p>{{noCubrimos4}}</p>  
+                    <p>{{noCubrimos5}}</p>  
+                </div>
+                <div class="modal-body">
+                    <h4 class="modal-body-title">Asistencias
+                    </h4>
+                    <p>{{asistencias1}}</p>
+                    <p>{{asistencias2}}</p>
+                    <p>{{asistencias3}}</p>
+                    <p>{{asistencias4}}</p>
+                    <p>{{asistencias5}}</p>
                 </div>
                 <div class="modal-footer">
-                    
+                    Costos : {{Costo}}M 
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -33,9 +58,24 @@ export default {
         target:String,
         nameLabel:String,
         Title:String,
-        Description:String,
+        cubrimos1:String,
+        cubrimos2:String,
+        cubrimos3:String,
+        cubrimos4:String,
+        cubrimos5:String,
+        noCubrimos1:String,
+        noCubrimos2:String,
+        noCubrimos3:String,
+        noCubrimos4:String,
+        noCubrimos5:String,
+        asistencias1:String,
+        asistencias2:String,
+        asistencias3:String,
+        asistencias4:String,
+        asistencias5:String,
         grup:String,
-        Costo:String
+        Costo:String,
+        img:String,
     }
 }
 </script>
