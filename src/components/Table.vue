@@ -27,7 +27,7 @@
                         <tbody>
                             <Tr img="https://cdn-icons-png.flaticon.com/512/2997/2997187.png"
                                 BText="Bonos verdes"
-                                BDescripcion="Toda tu inversión, estará destianda a tus propios proyects y a cuidar el planeta" />
+                                BDescripcion="Toda tu inversión, estará destianda a tus propios proyectos y a cuidar el planeta" />
                             <Tr img="https://img.freepik.com/vector-gratis/dibujado-mano-dia-mundial-medio-ambiente-salva-planeta-ilustracion_52683-61570.jpg?w=2000g"
                                 BText="Flexibilidad"
                                 BDescripcion="Paquete de seguros que se acomoda a tus necesidades" />

@@ -69,25 +69,28 @@
                     border: none;
 
                     .row {
-                        align-items: center;
-                        justify-content: center;
-
                         .col-12 {
-                            align-items: center;
-                        justify-content: center;
+
                             .card {
                                 margin: 2rem;
-                                color:white;
-                                .card-header{
-                                    font-family:var(--font-family-description);
+                                font-size: 1.5rem;
+                                color: white;
+                                height: auto;
+
+                                .card-header {
+                                    font-family: var(--font-family-description);
                                     background-color: #09462D;
+                                    font-size: 1.5rem;
                                 }
-                                .card-body{
+
+                                .card-body {
                                     padding: 16;
-                                    background-color: #2F9943;
-                                    .card-text{
-                                        font-family:var(--font-family-description);
+                                    background-color: #2f332f;
+
+                                    .card-text {
+                                        font-family: var(--font-family-description);
                                         margin: 0;
+                                        font-size: 1.5rem;
                                     }
                                 }
                             }
@@ -102,12 +105,13 @@
     }
 }
 
-.d-button{
+.d-button {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90vw;
-    .close{
+
+    .close {
         width: 10rem;
     }
 }

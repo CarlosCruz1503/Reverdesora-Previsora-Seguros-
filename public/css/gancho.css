@@ -1,0 +1,29 @@
+.gancho {
+  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+.gancho .img-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.gancho .img-display em {
+  font-size: 2rem;
+  font-family: "Fredoka One", cursive;
+  color: #9BBB59;
+}
+.gancho .img-display .rojo {
+  color: #C0504D;
+}
+.gancho .img-display .azul {
+  color: #4F81BD;
+}
+.gancho .img-display .morado {
+  color: #8064A2;
+}
+.gancho .img-display .yellow {
+  color: #c59b1b;
+}
+
+/*# sourceMappingURL=gancho.css.map */

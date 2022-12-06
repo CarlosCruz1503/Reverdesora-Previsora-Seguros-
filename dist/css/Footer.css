@@ -16,6 +16,14 @@
   font-weight: 600;
   margin-bottom: 1rem;
 }
+.footer .section-footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer .section-footer p {
+  padding: 0;
+  margin: 0;
+}
 .footer .section-footer .enlaceSimple {
   margin-left: 1rem;
   font-family: var(--font-family-description);
@@ -64,6 +72,12 @@
   color: white;
   padding: 0.2rem 1.2rem;
   border-radius: 0.5rem;
+}
+
+#title {
+  font-family: var(--font-family-description);
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=Footer.css.map */

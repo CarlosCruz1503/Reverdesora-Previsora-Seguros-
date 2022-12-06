@@ -1,5 +1,41 @@
 <template>
     <div class="div-header">
+        <div class="f-header">
+            <div class="row">
+                <div class="col-12 col-xl-3 title">
+
+                    <p> <strong>¡Tu empresa no es como la pintan!
+                        </strong>
+                    <p><em> ¡Es como la coloreas!
+                        </em></p>
+                    </p>
+                </div>
+                <div class="col-12 col-xl-3 t-1">
+                    <p class="cifra"></p>
+                    <p class="info"><em> Hay identificados 123 proyectos del sector gasífero</em> por cerca de US$2.000
+                        millones
+                        que generarían más de 20.000 empleos en diferentes regiones del país.
+                    </p>
+                </div>
+                <div class="col-12 col-xl-3 t-2">
+                    <p class="cifra"></p>
+                    <p class="info">De acuerdo con cifras de la Unidad de Planeación Minero Energética (Upme), a la
+                        fecha se han expedido 1.534 certificados de proyectos para acceder a los incentivos estipulados
+                        en la Ley 1715 de 2014, con <em>una inversión de $3,5 billones.</em>
+                    </p>
+                </div>
+                <div class="col-12 col-xl-3 t-2">
+                    <p class="cifra"></p>
+                    <p class="info"> <em> Con 294 proyectos</em>, Colombia transita a energías limpias. proyectos
+                        distribuidos en
+                        25 departamentos de Colombia para la generación de electricidad a partir de plantas solares,
+                        eólicas, pequeñas centrales hidroeléctricas (PCH) y biomasa que están inscritas en el Registro
+                        de Proyectos Vigentes (RPV) de la Unidad de Planeación Minero Energética (Upme).
+
+                    </p>
+                </div>
+            </div>
+        </div>
         <div class="d-header">
             <div class="row">
                 <div class="col-12 col-xl-6 sec-title">
@@ -23,26 +59,6 @@
                 </div>
                 <div class="col-12 col-xl-6 h-img">
                     <img src="../../public/img/imagen-header.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="f-header">
-            <div class="row">
-                <div class="col-12 col-md-5 title">
-
-                    <p>El valor de las empresas ya no está basada únicamente en la rentabilidad sino que se han
-                        incorporado factores como la generación de valor, enmarcada en la sostenibilidad de los negocios
-                        y grupos de interés.
-                    </p>
-                </div>
-                <div class="col-12 col-md-3 t-1">
-                    <p class="cifra"> 40% </p>
-                    <p class="info">Crecimiento en inversiones y compañias comprometidas con el ambiente</p>
-                </div>
-                <div class="col-12 col-md-3 t-2">
-                    <p class="cifra"> 79% </p>
-                    <p class="info">De gestores y compañías de inversion ya incorporan criterios ASG en su manera de
-                        invertir</p>
                 </div>
             </div>
         </div>

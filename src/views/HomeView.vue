@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <Gancho />
     <Header />
     <Radar id="radar"/>
     <ODS id="ods"/>
@@ -27,10 +28,11 @@ import Radar from '@/components/Radar.vue'
 import ODS from '@/components/Ods.vue'
 import Porque from '@/components/Porque.vue'
 import Team from '@/components/Team.vue'
+import Gancho from '@/components/Gancho.vue'
 export default {
   name: 'HomeView',
   components: {
-    Header, Claves, Services, Table, Allies, Faq, Footer, Radar, ODS, Porque, Team
+    Header, Claves, Services, Table, Allies, Faq, Footer, Radar, ODS, Porque, Team, Gancho
   }
 }
 </script>

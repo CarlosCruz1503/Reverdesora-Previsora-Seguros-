@@ -71,7 +71,7 @@
 }
 .div-header .f-header {
   height: auto;
-  width: 78%;
+  width: 85%;
   margin-top: -1rem;
   border-radius: 1.1rem;
   background-color: #FFFFFF;
@@ -79,34 +79,36 @@
   text-align: center;
 }
 .div-header .f-header .title {
-  background-color: #CABAC8;
+  background-color: #f8f4f8;
   border-radius: 1.1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  margin-right: 1rem;
+  border: 1px solid red;
+  flex-direction: column;
 }
 .div-header .f-header .title p {
   margin-top: 1rem;
   font-family: var(--font-family-description);
 }
 .div-header .f-header .t-1 {
-  background-color: #CABAC8;
+  background-color: #f8f4f8;
   border-radius: 1.1rem;
-  margin-right: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border: 1px solid red;
 }
 .div-header .f-header .t-2 {
-  background-color: #CABAC8;
+  background-color: #f8f4f8;
   border-radius: 1.1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border: 1px solid red;
 }
 .div-header .f-header .cifra {
   color: black;
@@ -117,6 +119,7 @@
 .div-header .f-header .info {
   font-size: 1rem;
   font-family: var(--font-family-description);
+  margin-top: 1rem;
 }
 
 @media (max-width: 1200px) {
@@ -188,6 +191,20 @@
   .h-form button {
     width: auto;
   }
+}
+strong {
+  color: red;
+  font-family: var(--font-family-description);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+em {
+  color: var(--color-text);
+  font-family: var(--font-family-description);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.1rem;
 }
 
 /*# sourceMappingURL=header.css.map */
