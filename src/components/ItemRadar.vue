@@ -41,7 +41,6 @@
                     <p>{{asistencias5}}</p>
                 </div>
                 <div class="modal-footer">
-                    Costos : {{Costo}}M 
                     <button type="button" class="btn btn-secondary close-gray"  data-bs-dismiss="modal">Close</button>
                 </div>
             </div>

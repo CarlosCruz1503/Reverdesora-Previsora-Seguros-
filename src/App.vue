@@ -37,11 +37,6 @@
                         valor, enmarcada en la sostenibilidad de los negocios y grupos de interés.
 
                       </p>
-                      <p class="card-text">* Igualmente para los inversionistas, la selección de sus portafolios ya no
-                        está basada únicamente en la rentabilidad sino que también se han incorporado factores como la
-                        generación de valor, enmarcada en la sostenibilidad de los negocios y grupos de interés.
-
-                      </p>
                     </div>
                   </div>
                 </div>

@@ -59,6 +59,7 @@
   border-radius: 1rem;
   background-color: rgb(255, 255, 255);
   font-family: var(--font-family-description);
+  border: 1px solid black;
 }
 .container .d-radar .p-radar #economiaCircular {
   left: -712px;
@@ -103,7 +104,7 @@
 }
 .container .d-radar .p-radar #PEPL {
   left: -476px;
-  top: -118px;
+  top: -148px;
 }
 .container .d-radar .p-radar #DT {
   left: -446px;

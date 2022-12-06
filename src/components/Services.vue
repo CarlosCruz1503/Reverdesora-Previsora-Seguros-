@@ -10,7 +10,7 @@
                     <ServicesCard icon="bi bi-people-fill"
                         SText="Optimización de su responsabilidad social empresarial."
                         SButton="Ver ventajas de ser una empresa ASG" SNumber="1"
-                        link="https://redshift.autodesk.es/que-es-asg/" />
+                        link="https://valor-compartido.com/10-ideas-para-que-tu-empresa-sea-socialmente-responsable/" />
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 r-services">
                     <ServicesCard icon="bi bi-cash"

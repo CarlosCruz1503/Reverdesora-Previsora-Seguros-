@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="ods-title">
-            <h1 class="f-h1" id="fh">ODSs que nos identifican</h1>
+            <h1 class="f-h1" id="fh">En línea con los ODS</h1>
         </div>
         <div class="row">
             <div class="imagenes-ods col-12 col-lg-7">

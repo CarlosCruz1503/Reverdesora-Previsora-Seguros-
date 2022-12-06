@@ -64,17 +64,18 @@
 .nav .solicitud .modal .modal-dialog .modal-content .row .col-12 .card {
   margin: 2rem;
   font-size: 1.5rem;
-  color: white;
+  color: rgb(7, 7, 7);
   height: auto;
 }
 .nav .solicitud .modal .modal-dialog .modal-content .row .col-12 .card .card-header {
   font-family: var(--font-family-description);
-  background-color: #09462D;
+  background-color: #61713C;
   font-size: 1.5rem;
+  color: rgb(255, 255, 255);
 }
 .nav .solicitud .modal .modal-dialog .modal-content .row .col-12 .card .card-body {
   padding: 16;
-  background-color: #2f332f;
+  background-color: #d9e7c8;
 }
 .nav .solicitud .modal .modal-dialog .modal-content .row .col-12 .card .card-body .card-text {
   font-family: var(--font-family-description);

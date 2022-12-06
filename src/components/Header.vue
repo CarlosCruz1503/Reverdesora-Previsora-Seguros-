@@ -2,29 +2,21 @@
     <div class="div-header">
         <div class="f-header">
             <div class="row">
-                <div class="col-12 col-xl-3 title">
-
-                    <p> <strong>¡Tu empresa no es como la pintan!
-                        </strong>
-                    <p><em> ¡Es como la coloreas!
-                        </em></p>
-                    </p>
-                </div>
-                <div class="col-12 col-xl-3 t-1">
+                <div class="col-12 col-xl-4 t-1">
                     <p class="cifra"></p>
                     <p class="info"><em> Hay identificados 123 proyectos del sector gasífero</em> por cerca de US$2.000
                         millones
                         que generarían más de 20.000 empleos en diferentes regiones del país.
                     </p>
                 </div>
-                <div class="col-12 col-xl-3 t-2">
+                <div class="col-12 col-xl-4 t-2">
                     <p class="cifra"></p>
                     <p class="info">De acuerdo con cifras de la Unidad de Planeación Minero Energética (Upme), a la
                         fecha se han expedido 1.534 certificados de proyectos para acceder a los incentivos estipulados
                         en la Ley 1715 de 2014, con <em>una inversión de $3,5 billones.</em>
                     </p>
                 </div>
-                <div class="col-12 col-xl-3 t-2">
+                <div class="col-12 col-xl-4 t-2">
                     <p class="cifra"></p>
                     <p class="info"> <em> Con 294 proyectos</em>, Colombia transita a energías limpias. proyectos
                         distribuidos en

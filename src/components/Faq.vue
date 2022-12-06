@@ -10,7 +10,7 @@
                 <div class="col-12 col-md-8">
                     <div class="accordion" id="accordionExample">
                         <FaqQ name="pregunta" nameNumber="pregunta1" ANameNumber="#pregunta1"
-                            FaqT="¿Qué es reverdesora?" Answer="Reverdesora es un paquete de seguros ajustado a las necesidades de los clientes y en línea con las iniciativas que conforman cada portafolio de iniciativas ASG.
+                            FaqT="¿Qué es reverdesora?" Answer="Reverdesora es un paquete de seguros, que ampara la inversión de portafolios ASG de los clientes y puede ser ajustado de acuerdo con sus necesidades.
                         " />
                         <FaqQ name="preguntaa" nameNumber="pregunta2" ANameNumber="#pregunta2"
                             FaqT="¿Qué pasá si invierto y de repente suben los precios de generación de energía renovable?"
@@ -22,13 +22,7 @@
                             FaqT="¿Por qué existe este seguro?" Answer="“Reverdesora”, es el primer seguro verde en Colombia y en el mundo creado para proteger a las organizaciones que cumplen con los criterios de elegibilidad de la taxonomía verde, durante la implementación de sus portafolios de iniciativas ASG orientadas a reducir el riesgo de sostenibilidad es decir, aquellos riesgos que por circunstancias ambientales, sociales o de gobernanza, produzcan un impacto adverso al desarrollo económico ambientalmente sostenible.
                             " />
                         <FaqQ name="preguntaaaaa" nameNumber="pregunta5" ANameNumber="#pregunta5"
-                            FaqT="¿Qué cubre este seguro?" Answer="Ejemplo de coberturas:
-                            Responsabilidad Civil por contaminación de predios, 
-                            Seriedad de oferta, 
-                            Buen manejo y correcta inversión del anticipo, 
-                            Cumplimiento, 
-                            Pago de salarios, 
-                            Estabilidad de obra, entre muchos otros 
+                            FaqT="¿Qué cubre este seguro?" Answer=" ¿Qué cubre el seguro? Las coberturas del paquete de seguros estarán ajustadas a las iniciativas que conformar tu portafolio ASG.
                             
                             " />
                         <FaqQ name="preguntaaaaaa" nameNumber="pregunta6" ANameNumber="#pregunta6"

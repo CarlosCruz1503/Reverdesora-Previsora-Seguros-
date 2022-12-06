@@ -4,7 +4,7 @@
           <div class="icon">
             <i :class=icon class="s-icon" ></i>
             <div class="s-number">
-              <p class="s-tnumber">{{SNumber}}</p>
+              <p class="s-tnumber"></p>
             </div>  
           </div>
           <p class="card-text s-text">{{SText}}</p>

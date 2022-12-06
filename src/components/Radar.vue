@@ -279,9 +279,6 @@ export default {
         let modal = document.querySelectorAll(".modal");
         let boton = document.querySelectorAll(".btn-close");
         let boton2 = document.querySelectorAll(".close-gray");
-
-        console.log(boton2[0])
-
         for (let i = 0; i < 16; i++) {
             switches[i].addEventListener("click", (e) => {
                 if (switches[i].classList[1] == 'activado') {
