@@ -120,8 +120,17 @@
                     </div>
                     <div class="p-radar">
                         <ItemRadar name="gAgua" target="gATarget" targetA="#gATarget" nameLabel="gALabel"
-                            Title="Gestión Del Agua" grup="ambiental" Costo="50"
-                            Description="Existen miles de iniciativas y buenas prácticas que las organizaciones pueden llevar a cabo para ejercer una gestión del agua más responsable. Sin embargo, la mayoría de organizaciones apuesta por lo que conocemos como la regla de las Tres Erres: reducir, reutilizar, reciclar." />
+                            Title="Gestión Del Agua" grup="ambiental" Costo="50" cubrimos1="* Amparo por responsabilidad civil por contaminación de fuentes hídricas (Vertimientos)
+                            " cubrimo2="* Amparo por gastos de limpieza de fuente hídrica
+                            " cubrimos3="* Amparo por gastos para implementar programas de contención ambiental correctivos
+                            " cubrimos4="* Amparo por cauciones judiciales en contra del asegurado
+                            " noCubrimos1="* Daños ambientales por incumplimiento doloso de normativa ambiental. 
+                            " noCubrimos2="* Contaminación de área no inspeccionada previamente
+                            " asistencia1="* Asistencia de financiación de programas de gestión ambiental con nuestros aliados (Grupo Bicentenario). 
+                            " asistencias2="* Asistencia con Ministerio de Ambiente y entidades involucradas para asesoramiento en implementación de programas de gestión ambiental.
+                            " asistencias3="* Asistencia en mantenimiento de equipos de conservación ambiental e infraestructura. 
+                            " img="https://cdn-icons-png.flaticon.com/512/999/999049.png
+                            " />
 
                         <ItemRadar name="economiaCircular" target="eCTarget" targetA="#eCTarget" nameLabel="eCLabel"
                             Title="Economia Circular" grup="ambiental" Costo="500" cubrimos1="* Amparo de responsabilidad civil por contaminación de disposición de residuos 
@@ -136,14 +145,23 @@
                             " />
 
                         <ItemRadar name="pCC" target="pCCTarget" targetA="#pCCTarget" nameLabel="pCCLabel" Title=" 
-                            Prevención y Control de la contaminación" grup="ambiental" Costo="150"
-                            Description="
-                            La prevención de la contaminación se centra directamente en la utilización de procesos, prácticas, materiales y fuentes de energía que eviten o reduzcan al mínimo la creación de conta- minantes y residuos en la fuente, en lugar de tener que recurrir a otras medidas de control." />
+                            Prevención y Control de la contaminación" grup="ambiental" Costo="150" cubrimos1="* Póliza seguro de parque automotor eléctricos, híbridos y/o energía eólica (RC Contractual y Extracontractual, Perdida Severa y menor por Daños / Hurto, gastos de grúa, transporte, y protección de vehículo, así como todo riesgo).
+                            " cubrimos2="* Póliza seguro de bicicletas (Perdida severa)
+                            " cubrimos3="* Amparo todo riesgo a equipos, maquinaria e infraestructura relacionados con proyectos de implementación de prevención y control de la contaminación en cualquier etapa (transporte, implementación y desarrollo)
+                            " noCubrimos1="* Daños ambientales por incumplimiento doloso de normativa ambiental.
+                            " asistencias1="* Asistencia de financiación de programas de gestión ambiental con nuestros aliados (Grupo Bicentenario). 
+                            " asistencias2="* Asistencia con Ministerio de Ambiente y entidades involucradas para asesoramiento en implementación de programas de gestión ambiental.
+                            " asistencias3="* Asistencia en mantenimiento de equipos de conservación ambiental e infraestructura. 
+                            " asistencias4="* Asistencia en talleres (pequeños accesorios y llantas estalladas – Vehículo de reemplazo)
+                            " img="https://cdn-icons-png.flaticon.com/512/2856/2856787.png
+                            " />
 
                         <ItemRadar name="CEB" target="CEBTarget" targetA="#CEBTarget" nameLabel="CEBLabel" Title="
                                 Conservación de los ecosistemas y la biodiversidad" grup="ambiental" Costo="500"
-                            Description="
-                                Invertir en infraestructura verde. Producir alimentos, materiales y energía de forma sostenible. Consumir agua de manera racional y eficiente para un mayor aprovechamiento. Apoyar a los pueblos indígenas y comunidades tradicionales, quienes resguardan muchos de los últimos reductos naturales que tiene el planeta." />
+                            cubrimos1="* Póliza de seguro agrícola de inversión por planta para cultivos de tardío rendimiento (Incluye proyectos agroforestales y/o granjas urbanas).
+                                " cubrimos2="* Amparo todo riesgo a equipos, maquinaria, insumos e infraestructura relacionados con proyectos de implementación de conservación de los ecosistemas y biodiversidad en cualquier etapa de implementación (transporte, implementación y desarrollo)
+                                " noCubrimos1="* Daños ambientales por incumplimiento doloso de normativa ambiental."
+                            asistencias1="" />
 
                         <ItemRadar name="adaptacionCClimatico" target="aCCTarget" targetA="#aCCTarget"
                             nameLabel="aCCLabel" Title="Adaptacion Cambio Climatico" grup="ambiental" Costo="100"
@@ -257,9 +275,49 @@ export default {
         ItemRadar,
     },
     mounted() {
-        window.addEventListener('load', function () {
-            comprobar('#switch10', 15, 'generacionEmpleo', '#gETarget')
-        });
+        let switches = document.querySelectorAll(".form-check-input");
+        let modal = document.querySelectorAll(".modal");
+        let boton = document.querySelectorAll(".btn-close");
+        let boton2 = document.querySelectorAll(".close-gray");
+
+        console.log(boton2[0])
+
+        for (let i = 0; i < 16; i++) {
+            switches[i].addEventListener("click", (e) => {
+                if (switches[i].classList[1] == 'activado') {
+                    if (window.innerWidth < 768) {
+                        modal[i + 1].classList.add("show")
+                        modal[i + 1].setAttribute("aria-modal", "true")
+                        modal[i + 1].setAttribute("role", "dialog")
+                        modal[i + 1].setAttribute("aria-hidden", "")
+                        modal[i + 1].setAttribute("aria-labelledby", "gALabel")
+                        modal[i + 1].style.display = "block"
+                    }
+                }
+            })
+            boton[i].addEventListener("click", (e) => {
+                if (window.innerWidth < 768) {
+                    modal[i + 1].classList.remove("show")
+                    modal[i + 1].setAttribute("aria-modal", "")
+                    modal[i + 1].setAttribute("role", "switch")
+                    modal[i + 1].setAttribute("aria-hidden", "true")
+                    modal[i + 1].setAttribute("aria-labelledby", "")
+                    modal[i + 1].style.display = "none"
+                }
+            })
+            boton2[i].addEventListener("click", (e) => {
+                if (window.innerWidth < 768) {
+                    modal[i + 1].classList.remove("show")
+                    modal[i + 1].setAttribute("aria-modal", "")
+                    modal[i + 1].setAttribute("role", "switch")
+                    modal[i + 1].setAttribute("aria-hidden", "true")
+                    modal[i + 1].setAttribute("aria-labelledby", "")
+                    modal[i + 1].style.display = "none"
+
+                }
+            })
+        }
+
     },
     methods: {
         aparecerDesaparecer(switchNum, idButton, costo,) {
@@ -282,4 +340,6 @@ export default {
     }
 }
 
+
 </script>
+

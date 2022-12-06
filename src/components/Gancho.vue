@@ -13,7 +13,7 @@
                 <div class="col-12 col-md-6">
                     <div class="img-display">
                         <img class="img-fluid" src="../../public/img/casita1.png" alt="">
-                        <h2>¡<em>Esco</em><em class="rojo"> como</em> <em class="azul">la co</em><em class="morado">lore</em><em class="yellow">as!</em>
+                        <h2><em>¡Es</em><em class="rojo"> como</em> <em class="azul">la co</em><em class="morado">lore</em><em class="yellow">as!</em>
 
                         </h2>
                     </div>
