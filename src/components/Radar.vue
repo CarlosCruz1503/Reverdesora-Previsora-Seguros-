@@ -6,19 +6,17 @@
         </div>
         <div class="info">
             <div class="row">
-                <div class="col-3 info-div">
+                <div class="col-4 info-div">
                     <img src="../../public/img/burbuja1.png" alt="">
                     <p>Presentas el portafolio de iniciativas verdes a desarrollar, eligiendo al menos un proyecto por
                         cada eje (ambiental, social y de gobernanza) y el monto de la inversión.
                     </p>
                 </div>
-                <div class="col-1"></div>
-                <div class="col-3 info-div">
+                <div class="col-4 info-div">
                     <img src="../../public/img/burbuja2.png" alt="">
                     <p>Recibes la oferta de coberturas y asistencias que más se ajuste a tus necesidades</p>
                 </div>
-                <div class="col-1"></div>
-                <div class="col-3 info-div">
+                <div class="col-4 info-div">
                     <img src="../../public/img/burbuja3.png" alt="">
                     <p>Inicias la implementación de tu portafolio balanceado. Tu decides si deseas asesoría
                         especializada brindada por nuestros aliados y/o líneas de financiación
