@@ -179,6 +179,15 @@
   text-align: start;
 }
 
+.img-convenio-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-convenio-display .img-convenio {
+  width: 5rem;
+}
+
 .modal .modal-dialog .modal-content .modal-header {
   font-family: var(--font-family-description);
   border-bottom: 2px solid var(--color-text);

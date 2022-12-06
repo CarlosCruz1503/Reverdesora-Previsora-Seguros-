@@ -13,6 +13,15 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                    <h4 class="modal-body-title">{{cTitle}}
+                    </h4>
+                    <p>{{convenio}}</p>
+                    <div class="img-convenio-display">
+                        <img class="img-fluid img-convenio" :src=imgConvenio alt="">
+                    </div>
+                    
+                </div>
+                <div class="modal-body">
                     <h4 class="modal-body-title">¿Qué cubrimos?
                     </h4>
                     <p>{{cubrimos1}}</p>
@@ -75,6 +84,9 @@ export default {
         grup:String,
         Costo:String,
         img:String,
+        convenio:String,
+        cTitle:String,
+        imgConvenio:String,
     }
 }
 </script>

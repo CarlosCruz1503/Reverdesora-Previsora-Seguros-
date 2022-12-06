@@ -226,6 +226,15 @@
         }
     }
 }
+.img-convenio-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .img-convenio{
+        width: 5rem;
+    }
+}
+
 
 .modal {
     .modal-dialog {

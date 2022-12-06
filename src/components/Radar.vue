@@ -159,61 +159,117 @@
                             cubrimos1="* Póliza de seguro agrícola de inversión por planta para cultivos de tardío rendimiento (Incluye proyectos agroforestales y/o granjas urbanas).
                                 " cubrimos2="* Amparo todo riesgo a equipos, maquinaria, insumos e infraestructura relacionados con proyectos de implementación de conservación de los ecosistemas y biodiversidad en cualquier etapa de implementación (transporte, implementación y desarrollo)
                                 " noCubrimos1="* Daños ambientales por incumplimiento doloso de normativa ambiental."
-                            asistencias1="" />
+                            asistencias1="* Asistencia de financiación de programas de gestión ambiental con nuestros aliados (Grupo Bicentenario). 
+                            " asistencias2="* Asistencia con Ministerio de Ambiente y entidades involucradas para asesoramiento en implementación de programas de gestión ambiental.
+                            " asistencias3="* Asistencia en mantenimiento de equipos de conservación ambiental e infraestructura. 
+                            "
+                            asistencias4="* Asistencia en talleres (pequeños accesorios y llantas estalladas – Vehículo de reemplazo)"
+                            img="data:image/jpeg;base64,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" />
 
                         <ItemRadar name="adaptacionCClimatico" target="aCCTarget" targetA="#aCCTarget"
                             nameLabel="aCCLabel" Title="Adaptacion Cambio Climatico" grup="ambiental" Costo="100"
-                            Description="Se refiere a cambios en los procesos, prácticas y estructuras para moderar los daños potenciales o para beneficiarse de las oportunidades asociadas con el cambio climático." />
-
-
+                            cubrimos1="* Amparo todo riesgo a equipos, maquinaria, insumos e infraestructura relacionados con proyectos de implementación de Adaptación al cambio climático en cualquier etapa de implementación (transporte, implementación y desarrollo)
+                            " noCubrimos1="* Daños ambientales por incumplimiento doloso de normativa ambiental.
+                            " asistencias1="* Asistencia de financiación de programas de gestión ambiental con nuestros aliados (Grupo Bicentenario). 
+                            " asistencias2="* Asistencia con Ministerio de Ambiente y entidades involucradas para asesoramiento en implementación de programas de gestión ambiental.
+                            " asistencias3="* Asistencia en mantenimiento de equipos de conservación ambiental e infraestructura. 
+                            "
+                            asistencias4="* Asistencia en talleres (pequeños accesorios y llantas estalladas – Vehículo de reemplazo)"
+                            img="data:image/jpeg;base64,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" />
 
                         <ItemRadar name="PC" target="PCTarget" targetA="#PCTarget" nameLabel="PCLabel" Title="
-                            Prevención accidentes" grup="social" Costo="20"
-                            Description="Medidas de prevención para los accidentes en el trabajo
-                                Colocar de manera correcta los materiales o productos que se procesan en el centro de trabajo. Mantener orden y limpieza en todas las instalaciones, áreas, equipo, maquinaria y herramienta, entre otras." />
+                            Prevención accidentes" grup="social" Costo="20" convenio="
+                            Convenio  con POSITIVA SEGUROS para la adquisición de seguros ramo vida – Riesgos Laborales
+                            " cTitle="Convenio" img="https://cdn-icons-png.flaticon.com/512/503/503968.png"
+                            imgConvenio="https://s3-ap-south-1.amazonaws.com/bot-bkt/prod/8931/Isologo_Positiva_avatar.png" />
 
                         <ItemRadar name="IS" target="ISTarget" targetA="#ISTarget" nameLabel="ISLabel" Title="
-                        Infraestructura Social" grup="ambiental" Costo="200"
-                            Description="
-                            Los proyectos de infraestructura social son pequeñas obras que tienen como objeto contribuir a satisfacer las necesidades básicas de la población rural en situación de pobreza, y financian las siguientes líneas de intervención: centros educativos, puestos de salud, agua potable, letrinas, trochas, puentes carrozables." />
+                        Infraestructura Social" grup="ambiental" Costo="200" cubrimos1="
+                            * Amparo todo riesgo a infraestructura social (parques, bosques o cualquier otro espacio público que la empresa quiera asegurar y que beneficie a la comunidad, el ecosistema y las finanzas de la empresa)
+" asistencias1="* Asistencia de financiación de programas de gestión de infraestructura social con nuestros aliados (Grupo Bicentenario). 
+" asistencias2="* Asistencia con Ministerio de Ambiente y entidades involucradas para asesoramiento en implementación de programas de gestión social
+" asistencias3="* Asistencia en mantenimiento de equipos de conservación ambiental e infraestructura social. 
+" img="https://cdn-icons-png.flaticon.com/512/2942/2942548.png
+" />
 
                         <ItemRadar name="GSC" target="GSCTarget" targetA="#GSCTarget" nameLabel="GSCLabel" Title="
-                        Gestión de Stakeholders y comunidad" grup="ambiental" Costo="30"
-                            Description="
-                            La gestión de relaciones con stakeholders es el proceso a través del cual se fomenta la relación recíproca y beneficiosa entre una empresa y sus grupos de interés (inversores, clientes, proveedores, empleados, medios de comunicación, entre otros)." />
+                        Gestión de Stakeholders y comunidad" grup="ambiental" Costo="30" cubrimos1="
+                            * Póliza de responsabilidad civil extracontractual por lesiones, muertes y/o daños materiales a bienes de terceros causados por el desarrollo normal de las actividades de la empresa:  
+                            - Gastos de defensa
+                            - Gastos Médicos de urgencia y/o funerarios
+                            - Perdidas patrimoniales / Lucro cesante F
+                     " noCubrimos1="* RC Contractual
+                     " noCubrimos2="* Dolo o culpa grave
+                     " img="https://cdn-icons-png.flaticon.com/512/2170/2170765.png
+                     " />
 
 
                         <ItemRadar name="PEPL" target="PEPLTarget" targetA="#PEPLTarget" nameLabel="PEPLLabel" Title="
-                        Promoción de empresas y pymes locales" grup="ambiental" Costo="15"
-                            Description="
-                            Son las MIPyMES quienes impulsan el desarrollo económico, generan empleo, especialmente para los jóvenes, y promueven la innovación y el progreso en el sector de las Tecnologías de la Información y las Comunicaciones (TIC)." />
+                        Promoción de empresas y pymes locales" grup="ambiental" Costo="15" cubrimos1="
+                            * Póliza de seguro Daños combinados a centros comerciales, clústeres, parques industriales y zonas francas:
+                            - Incendio
+                            - Temblor – Terremoto
+                            - Actos malintencionados – Terrorismo
+                            - Sustracción con o sin violencia
+                            - Corriente débil
+                            - Rotura de maquinaria
+                            - Lucro cesante
+                    " img="https://cdn-icons-png.flaticon.com/512/6213/6213866.png
+                    " />
 
                         <ItemRadar name="generacionEmpleo" target="gETarget" targetA="#gETarget" nameLabel="gELabel"
-                            Title="Generación de empleo" grup="social" Costo="15"
-                            Description="La generación de empleo es la capacidad que tiene la actividad turística para la creación de nuevos empleos en un destino o centro turístico. Mathienson y Wall (1990) establecen tres tipos de empleos que son generados por la actividad: directos, indirectos e inducidos." />
+                            Title="Generación de empleo" grup="social" Costo="15" convenio="Convenio  con POSITIVA SEGUROS para la adquisición de seguros ramo vida – Riesgos Laborales
+                            " cTitle="Convenio" img="https://img2.freepng.es/20181120/cba/kisspng-job-computer-icons-vector-graphics-illustration-em-5bf40ad62b7ba4.6073968715427202141781.jpg
+                            "
+                            imgConvenio="https://s3-ap-south-1.amazonaws.com/bot-bkt/prod/8931/Isologo_Positiva_avatar.png" />
 
                         <ItemRadar name="DT" target="DTTarget" targetA="#DTTarget" nameLabel="DTLabel"
-                            Title="Derechos de los trabajadores" grup="social" Costo="15" Description="Toda persona tiene derecho al trabajo, a la libre elección de su trabajo, a condiciones equitativas y satisfactorias de trabajo y a la protección contra el desempleo. Toda persona tiene derecho, sin discriminación alguna, a igual salario por trabajo igual.
-                            " />
+                            Title="Derechos de los trabajadores" grup="social" Costo="15" convenio="Convenio  con POSITIVA SEGUROS para la adquisición de seguros ramo vida – Riesgos Laborales
+                            " cTitle="Convenio" img="https://cdn-icons-png.flaticon.com/512/2694/2694564.png
+
+                            "
+                            imgConvenio="https://s3-ap-south-1.amazonaws.com/bot-bkt/prod/8931/Isologo_Positiva_avatar.png" />
+
                         <ItemRadar name="antiCorrupcion" target="aCTarget" targetA="#aCTarget" nameLabel="aCLabel"
-                            Title="Anti-Corrupcion" grup="gobernanza" Costo="15"
-                            Description="El Sistema Nacional Anticorrupción coordina a actores sociales y a autoridades de los distintos órdenes de gobierno, a fin de prevenir, investigar y sancionar la corrupción." />
+                            Title="Anti-Corrupcion" grup="gobernanza" Costo="15" cubrimos1="* Póliza de seguro de cumplimiento sector público y/o sector privado en contratos suscritos: 
+                            - Manejo de anticipos
+                            - Cumplimiento de contratos
+                            - Pago de salarios, prestaciones e indemnizaciones
+                            - Estabilidad de obra y/o proyecto
+                            " img="https://us.123rf.com/450wm/ahasoft2000/ahasoft20001704/ahasoft2000170402290/75440070-gratis-de-carga-icono-con-textura-granulada-dentro-del-c%C3%ADrculo-para-sellos-de-marca-de-agua-de-super.jpg?ver=6
+                            " />
 
                         <ItemRadar name="CR" target="CRTarget" targetA="#CRTarget" nameLabel="CRLabel"
-                            Title="Confianza y reputación" grup="gobernanza" Costo="20"
-                            Description="Es la imagen que proyecta la empresa y la percepción de ésta que tienenus stakeholders (grupos de  sinterés, tanto internos como externos), como resultado del comportamiento desarrollado por la empresa a lo largo del tiempo y de su capacidad para distribuir valor a los mencionados grupos." />
+                            Title="Confianza y reputación" grup="gobernanza" Costo="20" cubrimos1="* Póliza de seguros para cubrir los gastos eventuales por daños a la imagen de la empresa asegurada: 
+                            - Escandalo mediático
+                            - Manejo inescrupuloso de redes sociales
+                            - Ataques cibernéticos  
+                            " noCubrimos1="* De acuerdo con apetito de riesgo de la aseguradora.
+                            " img="https://cdn-icons-png.flaticon.com/512/1458/1458547.png
+                            " />
                         <ItemRadar name="TJC" target="TJCTarget" targetA="#TJCTarget" nameLabel="TJCLabel"
-                            Title="Trato justo a los clientes" grup="gobernanza" Costo="15"
-                            Description="Un buen servicio al cliente no sólo es responder las preguntas del cliente, sino ayudarlo cuando ni siquiera ha pedido nuestra ayuda, adelantarnos a lo que necesita y cubrir sus necesidades de manera eficaz. Existen otros aspectos como la amabilidad, calidad y calidez que también influirán en el servicio ofrecido." />
+                            Title="Trato justo a los clientes" grup="gobernanza" Costo="15" cubrimos1="* Póliza de responsabilidad civil extracontractual por lesiones, muertes y/o daños materiales a bienes de terceros causados por el desarrollo normal de las actividades de la empresa:   
+                            - Gastos de defensa
+                            - Gastos Médicos de urgencia y/o funerarios
+                            - Perdidas patrimoniales / Lucro cesante 
+                    " noCubrimos1="* RC Contractual
+                    " noCubrimos2="* Dolo o culpa grave
+                    " img="https://png.pngtree.com/png-vector/20220527/ourmid/pngtree-call-center-customer-icon-png-image_4746069.png
+                    " />
                         <ItemRadar name="RC" target="RCTarget" targetA="#RCTarget" nameLabel="RCLabel"
-                            Title="Rendicion de cuentas" grup="gobernanza" Costo="15"
-                            Description="La rendición de cuentas es una oportunidad para que la sociedad evidencie los resultados de la entidad de acuerdo con el cumplimiento de la misión o propósito fundamental, además, de la entrega efectiva de bienes y servicios orientados a satisfacer las necesidades o problemas sociales de sus grupos de valor" />
+                            Title="Rendicion de cuentas" grup="gobernanza" Costo="15" cubrimos1="* Póliza de seguros para cubrir los gastos eventuales por daños a la imagen de la empresa asegurada: 
+                            - Escandalo mediático
+                            - Manejo inescrupuloso de redes sociales
+                            - Ataques cibernéticos  
+                            " noCubrimos1="* De acuerdo con apetito de riesgo de la aseguradora.
+                            " img="https://angelicalozano.co/wp-content/uploads/2018/09/iconos-05.png
+                            " />
 
                         <ItemRadar name="OG" target="OGTarget" targetA="#OGTarget" nameLabel="OGLabel"
-                            Title="Órganos de Gobierno" grup="gobernanza" Costo="150"
-                            Description="Definición de Órgano de Administración de una empresa
-
-                            Es el equipo de alta dirección (por así llamarlo) y que tendrá la potestad de tomar decisiones de ámbitos diferentes que afecten a la gestión de la empresa" />
+                            Title="Órganos de Gobierno" grup="gobernanza" Costo="150" cubrimos1="* Póliza de seguros para cubrir los gastos de eventuales daños antijurídicos que se produzcan por multas e incumplimiento de normatividad aplicable a la empresa. 
+                            " noCubrimos1="* Incumplimiento doloso de normativa vigente .
+                            " img="https://thetreeschool.org/wp-content/uploads/2015/05/icono-gobierno.png
+                            " />
 
 
 
