@@ -264,6 +264,24 @@
     margin-top: 1rem;
     z-index: 10;
   }
+  .container .d-radar .p-radar .modal-content {
+    max-width: 480px;
+  }
+}
+@media (max-width: 500px) {
+  .container .d-radar .p-radar .modal-content {
+    max-width: 470px;
+  }
+}
+@media (max-width: 450px) {
+  .container .d-radar .p-radar .modal-content {
+    max-width: 420px;
+  }
+}
+@media (max-width: 400px) {
+  .container .d-radar .p-radar .modal-content {
+    max-width: 370px;
+  }
 }
 
 /*# sourceMappingURL=radar.css.map */

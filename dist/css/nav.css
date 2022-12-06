@@ -72,6 +72,7 @@
   background-color: #61713C;
   font-size: 1.5rem;
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 .nav .solicitud .modal .modal-dialog .modal-content .row .col-12 .card .card-body {
   padding: 16;

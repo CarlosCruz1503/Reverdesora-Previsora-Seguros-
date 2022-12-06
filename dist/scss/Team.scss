@@ -3,13 +3,21 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
     .img-team {
         height: 15rem;
         border: 1px solid var(--color-text);
         border-radius: 7.5rem;
     }
-    .team-name{
-        color:var(--color-text);
+
+    .team-name {
+        color: var(--color-text);
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .team-Iname {
+        color: #2D573D;
         text-align: center;
         margin-top: 1rem;
     }
@@ -21,19 +29,31 @@
             height: 13rem;
             border-radius: 7.5rem;
         }
-        .team-name{
+
+        .team-name {
+            font-size: 1.1rem;
+        }
+
+        .team-Iname {
             font-size: 1.1rem;
         }
     }
 }
+
 @media (max-width:768px) {
     .div-img-team {
         .img-team {
             height: 10rem;
             border-radius: 7.5rem;
         }
-        .team-name{
+
+        .team-name {
             font-size: 1rem;
         }
+
+        .team-Iname {
+            font-size: 1.1rem;
+        }
+
     }
 }

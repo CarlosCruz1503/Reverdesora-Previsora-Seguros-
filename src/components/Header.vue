@@ -2,30 +2,22 @@
     <div class="div-header">
         <div class="f-header">
             <div class="row">
-                <div class="col-12 col-xl-4 t-1">
+                <div class="col-12  col-xl-6 t-1">
                     <p class="cifra"></p>
-                    <p class="info"><em> Hay identificados 123 proyectos del sector gasífero</em> por cerca de US$2.000
-                        millones
-                        que generarían más de 20.000 empleos en diferentes regiones del país.
+                    <p class="info">
+                        El valor de una empresa no esta basa únicamente en la rentabilidad, sino que también se han
+                        incorporado factores como la generación de valor, enmarcada en la sostenibilidad de los
+                        negocios y grupos de interés.
                     </p>
                 </div>
-                <div class="col-12 col-xl-4 t-2">
+                <div class="col-12  col-xl-6 t-1">
                     <p class="cifra"></p>
-                    <p class="info">De acuerdo con cifras de la Unidad de Planeación Minero Energética (Upme), a la
-                        fecha se han expedido 1.534 certificados de proyectos para acceder a los incentivos estipulados
-                        en la Ley 1715 de 2014, con <em>una inversión de $3,5 billones.</em>
+                    <p class="info">
+                        Una empresa socialmente responsable debe convertir las buenas intenciones en un conjunto de políticas, prácticas y programas, es decir un portafolio ASG Ambiental, Social y de Gobernanza.
                     </p>
                 </div>
-                <div class="col-12 col-xl-4 t-2">
-                    <p class="cifra"></p>
-                    <p class="info"> <em> Con 294 proyectos</em>, Colombia transita a energías limpias. proyectos
-                        distribuidos en
-                        25 departamentos de Colombia para la generación de electricidad a partir de plantas solares,
-                        eólicas, pequeñas centrales hidroeléctricas (PCH) y biomasa que están inscritas en el Registro
-                        de Proyectos Vigentes (RPV) de la Unidad de Planeación Minero Energética (Upme).
+        
 
-                    </p>
-                </div>
             </div>
         </div>
         <div class="d-header">

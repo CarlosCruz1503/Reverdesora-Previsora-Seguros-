@@ -139,7 +139,7 @@
         }
 
         & .info {
-            font-size: 1rem;
+            font-size: 1.5rem;
             font-family: var(--font-family-description);
             margin-top: 1rem;
         }
@@ -161,6 +161,7 @@
             width: auto;
         }
     }
+    
 }
 
 @media (max-width: 998px) {
@@ -224,6 +225,11 @@
                 margin-left: 2rem;
             }
         }
+    }
+    #app > div.home > div.div-header > div.f-header > div > div > p.info{
+        font-size: 1rem;
+        font-family: var(--font-family-description);
+        margin-top: 1rem;
     }
 }
 

@@ -5,7 +5,7 @@
                 <div class="col-12 col-md-6">
                     <div class="img-display">
                         <img class="img-fluid" src="../../public/img/empresa.png" alt="">
-                        <h2>¡Tu empresa no es como la pintan!
+                        <h2>¡En tu empresa no es como la pintan!
                         </h2>
                     </div>
 
