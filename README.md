@@ -17,7 +17,7 @@ Carlos Cruz
 
 ## Tecnologías 🧑‍💻 :
 
-HTML, Css, Sass, Bootstrap, Js, ReactJS
+HTML, Css, Sass, Bootstrap, Js, VueJS
 
 ## Instalación 
 Este proyecto utilizar Webpack y tiene Scripts Propios (Ver package.json)
